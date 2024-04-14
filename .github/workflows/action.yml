@@ -53,7 +53,7 @@ jobs:
      steps: 
        - name: upload function
          run: 
-           aws lambda update-function-code --function-name my-function --s3-bucket myhjui23 --s3-key ${{ github.sha }}.zip --publish 
+           aws lambda update-function-code --function-name My-Lambda-Function --s3-bucket myhjui23 --s3-key ${{ github.sha }}.zip --publish 
         
                 
           
